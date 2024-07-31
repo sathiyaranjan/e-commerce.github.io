@@ -1,0 +1,348 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(-20deg, #424143 0%, #111211 100%);
+    background-color: #333;
+
+  }
+ 
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+   
+   
+  }
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+  
+  /* Header Styles */
+  header {
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(93, 62, 3, 0.966));
+    position: sticky;
+    top: 0px;
+    color: #2c1e1e;
+    padding: 20px;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    margin-top: 1%;
+    height: 60vh;
+    width: 100vw;
+    text-shadow: 1px 1px 2px black,0 0 25px yellow,0 0 5px rgb(89, 116, 4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-image: linear-gradient(grey,grey,darkgrey,lightgrey,grey,gray );
+    border-radius: 50px;
+    border-color: #eee3e3;
+   
+  }
+  @keyframes headerTextAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header h1, header h2, header h3 {
+    animation: headerTextAnimation 1s ease forwards; /* Adjust duration as needed */
+}
+
+header h1 {
+    animation: headerTextAnimation 1s ease forwards;
+}
+
+header h2 {
+    animation: headerTextAnimation 1.2s ease forwards; /* Slight delay for the subtitle */
+}
+
+nav {
+    animation: headerTextAnimation 1.4s ease forwards; /* Further delay for the navigation */
+}
+
+  #hero div {
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: larger;
+
+  }
+  .left{
+    width: 65%;
+    padding: 20px;
+    
+  }
+  .right{
+    width: 35%;
+    
+  }
+  #hero img {
+    
+    padding: 5%;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 40%;
+    object-fit: cover;
+    filter: drop-shadow(1px 1px 20px yellow);
+  }
+
+  .p {
+    text-align: center;
+  }
+  
+  .cta {
+    display: inline-block;
+    background-color: #eee3e3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* About Section Styles */
+  #about {
+    padding: 60px 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black,0 0 25px yellow,0 0 5px rgb(99, 116, 4);
+    font-size: larger;
+    /**border-color: #fffefe;
+    border-radius: 10%;
+    background-image: linear-gradient(rgb(3, 3, 3),grey);**/
+  }
+  #about p {
+    font-size: 19px;
+  }
+  
+  
+  
+  /* Services Section Styles */
+ #services {
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px rgb(99, 116, 4);
+  margin: 30px auto; /* Center horizontally */
+  width: 50%;
+  max-width: 400%;
+  align-content: center;
+  border-radius: 5%;
+  background-image: linear-gradient(grey,grey,darkgrey,grey,gray );
+
+}
+
+
+#services ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#services li {
+  margin: 10px;
+  padding: 20px;
+  width: 200px; /* Adjust as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+  #cen {
+
+    
+    text-shadow: 1px 1px 2px black,0 0 25px yellow,0 0 5px rgb(99, 116, 4);
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    top: 40%;
+  }
+  @keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+   
+  
+  
+  /* Portfolio Section Styles */
+  #portfolio {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #000000;
+    border-radius: 10%;
+    display: flex;
+    padding: 60px 20px;
+    border-radius: 1px;
+    text-shadow: 1px 1px 2px black,0 0 25px yellow,0 0 5px rgb(104, 122, 4);
+    text-align: center;
+  }
+  
+  
+  .project {
+    margin-bottom: 40px;
+    background: #333;
+    
+  }
+  
+  .project img {
+    
+    justify-content: left;
+    padding: 100px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(1px 1px 20px rgb(38, 116, 105));
+  }
+
+  .project a{
+    display: inline-block;
+    background-color: #171616;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  
+  
+
+  
+  
+  /* Contact Section Styles */
+  #contact {
+    text-shadow: 1px 1px 2px black,0 0 25px yellow,0 0 5px rgb(99, 116, 4);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10%;
+    
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  max-width: 600px; /* Adjust as needed */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  border-top: 2px solid #333; /* Example border styling */
+  padding-left: 20px;
+  max-width: 400px; /* Adjust as needed */
+}
+
+.contact-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.contact-info p {
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+  
+  /* Footer Styles */
+  footer {
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(108, 72, 3, 0.966));
+    padding: 20px;
+    text-align: center;
+  }

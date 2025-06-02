@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "price": 29.99,
+    "image": "/images/download.png",
+    "description": "Experience high-quality sound with these compact wireless earbuds, designed for all-day comfort and crystal-clear calls."
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Stand",
+    "price": 12.49,
+    "image": "/images/Smartphone Stand.png",
+    "description": "Keep your phone upright and hands-free with this durable, adjustable stand—perfect for video calls and content viewing."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "price": 45.99,
+    "image": "/images/Bluetooth Speaker.png",
+    "description": "Powerful and portable Bluetooth speaker with rich bass, perfect for both indoor gatherings and outdoor adventures."
+  },
+  {
+    "id": 4,
+    "name": "USB-C Cable",
+    "price": 7.99,
+    "image": "/images/USB-C Cable.png",
+    "description": "Fast-charging and durable USB-C cable with reinforced ends—ideal for daily use with phones, tablets, and laptops."
+  },
+  {
+    "id": 5,
+    "name": "LED Desk Lamp",
+    "price": 25.5,
+    "image": "/images/LED Desk Lamp.jpg",
+    "description": "Stylish LED desk lamp with touch control and adjustable brightness—great for reading, working, or relaxing."
+  },
+  {
+    "id": 6,
+    "name": "Gaming Mouse",
+    "price": 34.75,
+    "image": "/images/Gaming Mouse.png",
+    "description": "Ergonomic gaming mouse with customizable RGB lighting and high DPI for fast-paced gaming sessions."
+  },
+  {
+    "id": 7,
+    "name": "Mechanical Keyboard",
+    "price": 69.99,
+    "image": "/images/Mechanical Keyboard.jpg",
+    "description": "A responsive mechanical keyboard with tactile switches and vibrant RGB lighting to elevate your typing and gaming experience."
+  },
+  {
+    "id": 8,
+    "name": "Wireless Phone Charger",
+    "price": 24.50,
+    "image": "/images/Wireless Phone Charger.jpg",
+    "description": "Enjoy clutter-free charging with this sleek and efficient wireless charger—compatible with all Qi-enabled devices."
+  },
+  {
+    "id": 9,
+    "name": "Mini Projector",
+    "price": 129.00,
+    "image": "/images/Mini Projector.jpg",
+    "description": "Compact yet powerful projector perfect for home theaters, presentations, or movie nights on the go."
+  },
+  {
+    "id": 10,
+    "name": "USB-C Hub",
+    "price": 34.99,
+    "image": "/images/USB-C Hub.jpg",
+    "description": "Expand your laptop’s capabilities with this multi-port USB-C hub that supports HDMI, USB 3.0, and card readers."
+  },
+  {
+    "id": 11,
+    "name": "Noise Cancelling Headphones",
+    "price": 89.99,
+    "image": "/images/Noise Cancelling Headphones.jpg",
+    "description": "Immerse yourself in music with advanced noise cancellation and soft ear cushions for all-day listening comfort."
+  },
+  {
+    "id": 12,
+    "name": "Fitness Tracker Band",
+    "price": 39.99,
+    "image": "/images/Fitness Tracker Band.png",
+    "description": "Monitor your health and activity with this smart band that tracks steps, heart rate, sleep patterns, and more."
+  },
+  {
+    "id": 13,
+    "name": "Foldable Laptop Stand",
+    "price": 27.99,
+    "image": "/images/Foldable Laptop Stand.jpg",
+    "description": "Lightweight and foldable laptop stand with adjustable height to improve posture and reduce neck strain."
+  },
+  {
+    "id": 14,
+    "name": "LED Desk Lamp",
+    "price": 22.50,
+    "image": "/images/LED Desk Lamp.jpg",
+    "description": "Compact LED lamp with adjustable brightness and color temperature to suit reading, working, or relaxing moods."
+  },
+  {
+    "id": 15,
+    "name": "Wireless Gaming Controller",
+    "price": 49.99,
+    "image": "/images/Wireless Gaming Controller.png",
+    "description": "Versatile wireless controller with dual-mode connectivity, responsive triggers, and long battery life for console-style gaming."
+  }
+]
